@@ -5,7 +5,10 @@ int main()
 	scanf("%d",&a);
 	for(i=1;i<=a;i++)
 	{
-	sum=sum+i;	
+		printf("%d",i);
+	sum=sum+i;
 	}
-	printf("%d",sum/2);
+	printf("\n%d",sum/a);
+	return 0;
+        
 }
