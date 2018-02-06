@@ -37,7 +37,7 @@ switch(n)
                  printf("ten",n);
                  break;
             default:
-                 printf("the number is not a given intrval",n);
+                 printf("the number is not a given interval",n);
                  break;
         return 0;
 }
