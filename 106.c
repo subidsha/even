@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int n;
-	scanf("%d",&n);
-	printf("%c",64+n);
+	int a;
+	scanf("%d",&a);
+	printf("%c",64+a);
 	return 0;
 }
