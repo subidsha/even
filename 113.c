@@ -12,6 +12,6 @@ int main(void)
     	count++;
     }
     }
-    printf("%d",count);
+    printf("%d is repetitions of %d times",k,count);
     return 0;
 }
