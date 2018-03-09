@@ -3,17 +3,17 @@
 int main(void) 
 {
 	char a[100];
-	int l,i,c=0;
+	int n,i,count=0;
 	scanf("%[^\t\n]s",&a);
-	l=strlen(a);
-	for(i=0;i<=l;i++)
+	n=strlen(a);
+	for(i=0;i<=n;i++)
 	{
 	if(a[i]==' ')
 	{
-	c++;
+	count++;
 	}
 	}
-	printf("%d",c);
+	printf("%d",count);
 	return 0;
 	
 }
