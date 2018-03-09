@@ -13,7 +13,7 @@ int main(void)
 			c++;
 		}
 	}
-	printf("%d",c+1);
+	printf("%d",c);
 	return 0;
 	
 }
